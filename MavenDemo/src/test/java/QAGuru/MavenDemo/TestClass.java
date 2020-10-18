@@ -106,6 +106,7 @@ public class TestClass {
 			System.out.println("Dropdown is disabled");
 		} else {
 			System.err.println("Dropdown is not disabled");
+			System.out.println("*******************");
 		}
 
 		WebElement selectStateDropdown = driver.findElement(By.xpath("//div[text()='Select State']"));
@@ -167,6 +168,7 @@ public class TestClass {
 		int end = list.size();
 
 		return r.nextInt(end - start) + start;
+		
 
 	}
 
