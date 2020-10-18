@@ -1,0 +1,56 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" ignored="0" total="3" passed="3">
+  <reporter-output>
+  </reporter-output>
+  <suite name="Default suite" duration-ms="27312" started-at="2020-09-11T17:07:39Z" finished-at="2020-09-11T17:08:06Z">
+    <groups>
+      <group name="regression">
+        <method signature="Class5Sept_2.viewPost()[pri:0, instance:QAGuru.MavenDemo.Class5Sept_2@2f112965]" name="viewPost" class="QAGuru.MavenDemo.Class5Sept_2"/>
+        <method signature="Class5Sept_2.viewPost2()[pri:0, instance:QAGuru.MavenDemo.Class5Sept_2@2f112965]" name="viewPost2" class="QAGuru.MavenDemo.Class5Sept_2"/>
+      </group> <!-- regression -->
+      <group name="smoke">
+        <method signature="Class5Sept_2.viewPost()[pri:0, instance:QAGuru.MavenDemo.Class5Sept_2@2f112965]" name="viewPost" class="QAGuru.MavenDemo.Class5Sept_2"/>
+      </group> <!-- smoke -->
+    </groups>
+    <test name="Default test" duration-ms="27312" started-at="2020-09-11T17:07:39Z" finished-at="2020-09-11T17:08:06Z">
+      <class name="QAGuru.MavenDemo.Class5Sept_2">
+        <test-method status="PASS" signature="browserInit()[pri:0, instance:QAGuru.MavenDemo.Class5Sept_2@2f112965]" name="browserInit" is-config="true" duration-ms="6834" started-at="2020-09-11T17:07:39Z" finished-at="2020-09-11T17:07:46Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- browserInit -->
+        <test-method status="PASS" signature="OneTestMethod()[pri:0, instance:QAGuru.MavenDemo.Class5Sept_2@2f112965]" name="OneTestMethod" duration-ms="8" started-at="2020-09-11T17:07:46Z" finished-at="2020-09-11T17:07:46Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- OneTestMethod -->
+        <test-method status="PASS" signature="closeBrowser()[pri:0, instance:QAGuru.MavenDemo.Class5Sept_2@2f112965]" name="closeBrowser" is-config="true" duration-ms="639" started-at="2020-09-11T17:07:46Z" finished-at="2020-09-11T17:07:47Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- closeBrowser -->
+        <test-method status="PASS" signature="browserInit()[pri:0, instance:QAGuru.MavenDemo.Class5Sept_2@2f112965]" name="browserInit" is-config="true" duration-ms="6578" started-at="2020-09-11T17:07:47Z" finished-at="2020-09-11T17:07:53Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- browserInit -->
+        <test-method status="PASS" signature="viewPost()[pri:0, instance:QAGuru.MavenDemo.Class5Sept_2@2f112965]" name="viewPost" duration-ms="2168" started-at="2020-09-11T17:07:53Z" finished-at="2020-09-11T17:07:55Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- viewPost -->
+        <test-method status="PASS" signature="closeBrowser()[pri:0, instance:QAGuru.MavenDemo.Class5Sept_2@2f112965]" name="closeBrowser" is-config="true" duration-ms="699" started-at="2020-09-11T17:07:55Z" finished-at="2020-09-11T17:07:56Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- closeBrowser -->
+        <test-method status="PASS" signature="browserInit()[pri:0, instance:QAGuru.MavenDemo.Class5Sept_2@2f112965]" name="browserInit" is-config="true" duration-ms="6227" started-at="2020-09-11T17:07:56Z" finished-at="2020-09-11T17:08:02Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- browserInit -->
+        <test-method status="PASS" signature="viewPost2()[pri:0, instance:QAGuru.MavenDemo.Class5Sept_2@2f112965]" name="viewPost2" duration-ms="3324" depends-on-groups="smoke" started-at="2020-09-11T17:08:02Z" finished-at="2020-09-11T17:08:06Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- viewPost2 -->
+        <test-method status="PASS" signature="closeBrowser()[pri:0, instance:QAGuru.MavenDemo.Class5Sept_2@2f112965]" name="closeBrowser" is-config="true" duration-ms="807" started-at="2020-09-11T17:08:06Z" finished-at="2020-09-11T17:08:06Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- closeBrowser -->
+      </class> <!-- QAGuru.MavenDemo.Class5Sept_2 -->
+    </test> <!-- Default test -->
+  </suite> <!-- Default suite -->
+</testng-results>
