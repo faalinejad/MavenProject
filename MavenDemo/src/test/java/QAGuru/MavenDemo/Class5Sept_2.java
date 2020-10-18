@@ -143,6 +143,7 @@ public class Class5Sept_2 {
 	public void closeBrowser() {
 		// driver.close(); // close current window , not quitting driver session
 		driver.quit(); // close entire driver session
+		System.out.println("this change has happend");
 	}
 
 }

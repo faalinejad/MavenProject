@@ -39,6 +39,7 @@ public class Class5Sept {
 	@Test(dataProvider = "loginData", dataProviderClass = TestClass.class)
 	public void doLogin(String email, String password, String message) {
 		System.out.println(email + "   " + password);
+		System.out.println("ttttt");
 
 		driver.findElement(By.id("email")).sendKeys(email);
 		driver.findElement(By.id("passwd")).sendKeys(password);
